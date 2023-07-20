@@ -1,0 +1,26 @@
+.homeCard{
+    height: 25rem;
+    cursor: pointer;
+  }
+  .homeCol:hover{
+    box-shadow:5px 5px 8px 4px #49ad4988 ;
+  }
+  .homeColStock:hover{
+    box-shadow:5px 5px 8px 4px #ee2a2a88 ;
+  }
+  .homeImage{
+    margin-top: 0.5rem;
+    float:center;
+      width:  15rem;
+      height: 12rem;
+      border-radius: 50%;
+      
+  }
+  .outOfStock{
+    color: #ff0000;
+  }
+  .priceRatingDiv{
+    display: flex;
+    justify-content: space-around;
+    
+  }

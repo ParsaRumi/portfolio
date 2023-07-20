@@ -1,0 +1,61 @@
+.editRow{
+    height: 94.6vh;
+    
+}
+.sidebar{
+    background-color: #4C489D;
+    margin-left: -4.3rem;
+  
+}
+.sidebar p{
+    margin-top: .5rem ;
+    margin-left: -2rem;
+    color: #e4e9ed;
+    margin-right: -1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.sidebar p:hover{
+   background-color: #C7C5F4;
+    color: #4C489D;
+}
+.sidebar .sidebarp{
+   background-color: #C7C5F4;
+    color: #4C489D;
+}
+
+.profile_Content{
+    background-color: #7690aa;
+    margin-right: -4.4rem;
+    padding: 0;
+}
+.profileImage{
+    margin-top: 2rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    box-shadow: 3px 5px 20px 4px rgba(119, 107, 204,.5);
+}
+.profileImage1{
+    margin-top: 1rem;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    box-shadow: 3px 5px 20px 4px rgba(119, 107, 204,.5);
+}
+
+@media screen and (max-width:658px){
+    .profileImage1{
+        margin-top: 1rem;
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        box-shadow: 3px 5px 20px 4px rgba(119, 107, 204,.5);
+    }
+    .editRow{
+        height: auto;
+    }
+    .sidebar{
+        margin: 0;
+    }
+}
